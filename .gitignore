@@ -1,0 +1,40 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+.dist/
+.build/
+*.log
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Byte-compiled files
+*.pyo
+*.pyc
+
+# Cache files
+*.cache
+*.pkl
+
+# Test artifacts
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Directory to ignore
+run/
+run/**
