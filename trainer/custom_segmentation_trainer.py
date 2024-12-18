@@ -1,14 +1,15 @@
 from copy import copy
 
-from ultralytics.nn.tasks import SegmentationModel
+from ultralytics.models import yolo
+from models.yolo.model import SegmentationModel
 from ultralytics.utils import DEFAULT_CFG, RANK
 from ultralytics.utils.plotting import plot_images, plot_results
 
-from models.yolo import yolo
+# from models.yolo import yolo
 from trainer.detection_trainer import DetectionTrainer
 
 
-class SegmentationTrainer(DetectionTrainer):
+class CustomSegmentationTrainer(DetectionTrainer):
     """
     A class extending the DetectionTrainer class for training based on a segmentation model.
 
