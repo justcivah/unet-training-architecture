@@ -36,5 +36,10 @@ venv/
 Thumbs.db
 
 # Directory to ignore
-run/
-run/**
+runs/
+runs/**
+
+# Ultralytics file to ignote
+wandb/
+wandb/**
+*.pt
