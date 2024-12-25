@@ -1,6 +1,6 @@
-from trainer.custom_segmentation_trainer import CustomSegmentationTrainer
+from trainer.segmentation_trainer import SegmentationTrainer
 
 
 args = dict(model="yolov8n-seg.pt", data="../tirocinio/datasets/scannet-dataset-small/dataset.yaml", epochs=1)
-trainer = CustomSegmentationTrainer(overrides=args)
+trainer = SegmentationTrainer(overrides=args)
 trainer.train()

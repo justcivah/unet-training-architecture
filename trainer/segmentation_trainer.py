@@ -9,7 +9,7 @@ from ultralytics.utils.plotting import plot_images, plot_results
 from trainer.detection_trainer import DetectionTrainer
 
 
-class CustomSegmentationTrainer(DetectionTrainer):
+class SegmentationTrainer(DetectionTrainer):
     """
     A class extending the DetectionTrainer class for training based on a segmentation model.
 
